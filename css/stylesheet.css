@@ -3,16 +3,16 @@
     margin: 0;
     padding: 0;
   }
-
-#header-nav {
+.navbar {
     background-color: gray;
     border-radius: 0;
     border: 2px solid black;
 }
-.navbar-brand h1 {
+.navbar-brand a {
     color: black;
     font-size: 1.5em;
-    font-weight: bold;;
+    font-weight: bold;
+    margin-left: 0px;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
@@ -21,7 +21,6 @@
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
-
 
 #ourmenu {
     margin-top: 5px;
