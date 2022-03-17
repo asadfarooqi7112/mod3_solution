@@ -24,18 +24,44 @@
 
 
 h1 {
-    margin: 25px;
+    margin-top: 5px;
+    margin-bottom: 40px;
     font-weight: bold ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .row{
     margin-bottom: 15px ;
 }
-.row > div {
-    background-color: grey;
-    border: 2px solid black;
-    color: black;
-    height: 2000px;
+
+@media (max-width: 767px) {
+    .row > div > div {
+        background-color: grey;
+        margin-left: 5%;
+        padding: 10px 10px 0px 10px;
+        color: black;
+        height: 2000px;
+    }
+    
+    .row div {
+        width: 90%;
+        margin-left: 5%;
+        height: 2000px;
+    }
+}
+
+@media (min-width: 768px) {
+    .row > div > div {
+        background-color: grey;
+        padding: 10px 10px 0px 10px;
+        color: black;
+        height: 2000px;
+    }
 }
 
 #nav-list {
